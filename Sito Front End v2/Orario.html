@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oggi SMP</title>
+</head>
+<body>
+  
+  
+    
+    <div class="container">
+
+        <nav class="navbar">
+            <ul>
+                <img src="img/image.png" alt="Logo" width="48" height="46" >
+             <li><a href="Home.html">Home</a></li>
+             <li><a href="Orario.html">Orario</a></li>   
+             <li><a href="Storico.html">Storico </a></li>
+            <li><a class="login" href="Login.html">Login</a></li>
+
+            </ul>
+        </nav>
+
+        <h1 style="text-align: left;">Oggi</h1>
+        
+        <h2>Orari Registrati per Oggi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Mattina</th>
+                    <th>Pomeriggio</th>
+                    <th>Stato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01/12/2024</td>
+                    <td>8:00 - 12:00</td>
+                    <td>13:00 - 17:00</td>
+                    <td>Registrato</td>
+                </tr>
+                <!-- Aggiungi altre righe come necessario -->
+            </tbody>
+        </table>
+
+        <h2>Azioni per Oggi</h2>
+        <p>Puoi registrare o modificare gli orari per oggi utilizzando il modulo sottostante.</p>
+        
+        <form>
+            <label for="mattina">Orario Mattina:</label>
+            <input type="time" id="mattina" name="mattina" required>
+
+            <label for="pomeriggio">Orario Pomeriggio:</label>
+            <input type="time" id="pomeriggio" name="pomeriggio" required>
+
+            <button type="submit">Registra Orario per Oggi</button>
+        </form>
+    </div>
+</body>
+</html>

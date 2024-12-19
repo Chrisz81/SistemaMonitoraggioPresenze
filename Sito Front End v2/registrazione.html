@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registrazione SMP</title>
+</head>
+<body>
+    <div class=" container">
+        
+        <nav class="navbar">
+            <ul>
+
+                <img src="img/image.png" alt="Logo" width="48" height="46" >
+                
+             <li><a href="Home.html">Home</a></li>
+             <li><a href="Orario.html">Orario</a></li>   
+             <li><a href="Storico.html">Storico </a></li>
+            <li><a class="login" href="Login.html">Login</a></li>
+            
+            </ul>
+        </nav>
+    
+        
+        
+        <h1>Registrazione SMP</h1>
+        <form id="registrationForm">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" required>
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" required>
+            <button type="submit">Registrati</button>
+        </form>
+        <div id="registrationMessage"></div>
+        <p>Hai già un account? <a href="Login.html">Accedi qui</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
